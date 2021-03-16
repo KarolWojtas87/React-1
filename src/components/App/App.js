@@ -6,6 +6,7 @@ import { pageContents, listData } from '../../data/dataStore';
 
 class App extends React.Component {
   render() {
+    console.log(listData);
     return (
       <main className={styles.component}>
         <h1 className={styles.title}>{pageContents.title}</h1>
