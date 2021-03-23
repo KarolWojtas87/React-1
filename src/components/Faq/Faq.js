@@ -3,7 +3,7 @@ import Container from '../Container/Container';
 import Hero from '../Hero/Hero';
 import styles from './Faq.scss';
 import { faq } from '../../data/dataStore';
-// import PropTypes from 'prop-types';
+
 
 
 const Faq = () => (

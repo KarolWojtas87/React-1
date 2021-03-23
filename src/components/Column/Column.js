@@ -6,10 +6,7 @@ import { settings } from '../../data/dataStore';
 import Creator from '../Creator/Creator.js';
 import Icon from '../Icon/Icon.js';
 
-
-
 class Column extends React.Component {
-
 
   static propTypes = {
     title: PropTypes.node,
@@ -21,7 +18,6 @@ class Column extends React.Component {
   static defaultProps = {
     icon: settings.defaultColumnIcon,
   }
-
 
   render() {
 
@@ -39,11 +35,6 @@ class Column extends React.Component {
             <Card key={cardData.id} {...cardData} />
           ))}
         </div>
-        {/* <div className={styles.columns}>
-          {this.state.cards.map(({ key, ...cardsProps }) => (
-            <Card key={key} {...cardsProps} />
-          ))}
-        </div> */}
         <div className={styles.creator}>
           <Creator text={settings.cardCreatorText} action={addCard} />
         </div>

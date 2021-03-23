@@ -3,7 +3,7 @@ import Container from '../Container/Container';
 import Hero from '../Hero/Hero';
 import styles from './Info.scss';
 import { info } from '../../data/dataStore';
-// import PropTypes from 'prop-types';
+
 
 const Info = () => (
     <Container>
