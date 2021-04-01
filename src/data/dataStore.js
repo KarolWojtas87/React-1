@@ -90,9 +90,23 @@ export const faq =
 const lists = [
   {
     id: 'list-1',
-    title: 'Things to do <sup>soon!</sup>',
-    description: 'Interesting things I want to check out!',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    title: 'Movies',
+    description: 'What I must watch!',
+    image: 'https://images.pexels.com/photos/3137890/pexels-photo-3137890.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+  },
+
+  {
+    id: 'list-2',
+    title: 'Books',
+    description: 'What I must read!',
+    image: 'https://images.pexels.com/photos/2663851/pexels-photo-2663851.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  },
+
+  {
+    id: 'list-3',
+    title: 'Games',
+    description: 'What I must play!',
+    image: 'https://images.pexels.com/photos/3945656/pexels-photo-3945656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
   },
 ];
 
